@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "visor-bpmn",
+      "runtimeExecutable": "C:\\Users\\USUARIO\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "runtimeArgs": ["-I", "-m", "http.server", "8765", "--bind", "127.0.0.1", "--directory", "C:\\Users\\USUARIO\\AppData\\Local\\Temp\\claude\\fb601841b0950632\\90fc8c25-199a-44cf-89de-10f0b1d8d5c2\\scratchpad"],
+      "port": 8765
+    },
+    {
+      "name": "muni-backend-lab",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "C:\\software-web-muni\\Software-web-Municipalidad-San-Bartolo\\backend", "run", "start:lab"],
+      "port": 3000
+    },
+    {
+      "name": "muni-frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "C:\\software-web-muni\\Software-web-Municipalidad-San-Bartolo\\frontend", "run", "dev"],
+      "port": 5173,
+      "url": "http://sanbartolo.localhost:5173"
+    }
+  ]
+}
