@@ -1,0 +1,22 @@
+# Archivos auxiliares de compilación LaTeX
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.toc
+*.log
+*.synctex.gz
+*-SAVE-ERROR
+
+# Python
+__pycache__/
+*.pyc
+
+# Configuración local del editor/Claude
+.claude/
